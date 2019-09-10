@@ -10,7 +10,7 @@ If you have any questions, feel free to contact your sponsor at Jane. Good luck 
 
 ### To rebuild the iheartjane database
 
-The iheartjane database is already provided under `db/jane.db` so you should not have to rebuild it. However, here are the instructions to do so as a reference.
+The iheartjane database is already provided under `db/jane.db` so you should not have to rebuild it. However, for reference, here are the instructions to do so.
 
 ```
 cd db
