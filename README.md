@@ -1,4 +1,4 @@
-# Jane - Backend Coding Challenge
+# Backend Coding Challenge
 
 Your job is to build a small data pipeline that simulates the ingestion of a product inventory from a point-of-sale (POS) system into iheartjane.
 
