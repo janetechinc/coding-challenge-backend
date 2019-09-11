@@ -25,3 +25,4 @@ python seed.py
 - We use python and we'd love to see you use it too (only if you've use it in the past).
 - No need to focus too much on fine tuning the results. It's good enough to get to about 80% accuracy.
 - We'll be looking mostly at how you write and structure your code as well as the heuristics, techniques and tools you use to get the job done. The rest is hopefully details - think Pareto principle.
+- Your solution should be able to be run from the command line. Please include appropriate scripts and instructions for running your application and your tests, if any.
