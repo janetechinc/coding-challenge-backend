@@ -17,15 +17,23 @@ column in `products` table. If the lookup was not successful (because the logic
 needs to be further tuned or the product simply does not exist in the iheartjane
 database), no product id should be specified.
 
-We're looking for a modular and extensible architecture or pattern that can
+### Notes
+
+- We're looking for a modular and extensible architecture or pattern that can
 easily integrate other POS systems and provide a foundation for a scalable
 cloud-based solution. This as opposed to an ad-hoc script that does the job but
 only that specific job, i.e. ingest the provided `pos/products.json` file. In other
 words, pay particular attention to the design, code structure, techniques and tools
 used and don't spend too much time fine tuning low level code to match as many
-products as possible. We also do not expect you to use other major pieces of
-software such as pub/sub, streaming or storage systems. Python libraries that can
-be installed with a package manager such as pip are fine to use.
+products as possible.
+- We use python and we'd love to see you use it too (only if you've use it in the
+past).
+- We do not expect you to use other major pieces of software such as pub/sub,
+streaming or storage systems. Libraries that can easily be installed with a package
+manager such as pip (for Python) are fine to use.
+- Your solution should be able to be run from the command line. Please include
+appropriate scripts and instructions for running your application and your tests,
+if any.
 
 If you have any questions, feel free to contact your sponsor at Jane. Good luck and
 have fun!
@@ -43,11 +51,5 @@ pip install -r requirements.txt
 python seed.py
 ```
 
-### Notes
 
-- We use python and we'd love to see you use it too (only if you've use it in the
-past).
-- Your solution should be able to be run from the command line. Please include
-appropriate scripts and instructions for running your application and your tests,
-if any.
 
