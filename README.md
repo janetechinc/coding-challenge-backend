@@ -17,12 +17,15 @@ column in `products` table. If the lookup was not successful (because the logic
 needs to be further tuned or the product simply does not exist in the iheartjane
 database), no product id should be specified.
 
-We're looking for a scalable and extensible architecture or pattern that can
-relatively easily support other POS systems and be deployed in the cloud at scale.
-This as opposed to an ad-hoc script that does the job but only that specific job,
-i.e. ingest the provided `pos/products.json` file. In other words, pay particular
-attention to the design, code structure, techniques and tools used and don't spend
-too much time fine tuning low level code to match as many products as possible.
+We're looking for a modular and extensible architecture or pattern that can
+easily integrate other POS systems and provide a foundation for a scalable
+cloud-based solution. This as opposed to an ad-hoc script that does the job but
+only that specific job, i.e. ingest the provided `pos/products.json` file. In other
+words, pay particular attention to the design, code structure, techniques and tools
+used and don't spend too much time fine tuning low level code to match as many
+products as possible. We also do not expect you to use other major pieces of
+software such as pub/sub, streaming or storage systems. Python libraries that can
+be installed with a package manager such as pip are fine to use.
 
 If you have any questions, feel free to contact your sponsor at Jane. Good luck and
 have fun!
